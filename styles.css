@@ -1295,3 +1295,6 @@ textarea { min-height: 120px; resize: vertical; }
     to { opacity: 1; transform: translateY(0); }
   }
 }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--navy, #0F2A6B); color: #fff; padding: 12px 20px; font-weight: 700; text-decoration: none; z-index: 9999; }
+.skip-link:focus { left: 8px; top: 8px; outline: 3px solid var(--orange); }
